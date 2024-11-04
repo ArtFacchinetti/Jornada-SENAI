@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="big-section" id="restaurante-1">
+        <div class="w3-panel w3-pink">
+            <h1>Calculadora de conta <br> de restaurante</h1><br>
+        </div>
+        <p>Valor da conta</p>
+        <input type="number" class="w3-input w3-border" id="restaurante-1-valor-total" oninput="calculoRestaurante1()"><br>
+
+        <p>Número de pessoas a pagar</p>
+        <input type="number" class="w3-input w3-border" id="restaurante-1-numero-de-pessoas" oninput="calculoRestaurante1()"><br>
+
+        <h2>Valor a ser pago + taxa de 10%</h2>
+        <p id="restaurante-1-resultado">R$00,00</p>
+    </div>
+    <div class="big-section" id="restaurante-2">
+        <div class="w3-panel w3-red">
+            <h1>Calculadora de<br> couvert</h1><br>
+        </div>
+
+        <p>Valor da conta</p>
+        <input type="number" class="w3-input w3-border" id="restaurante-2-valor-total" oninput="calculoRestaurante2()"><br>
+
+        <p>Couvert - R$10,00</p>
+        <select id="restaurante-2-couvert" class="w3-select w3-border" oninput="calculoRestaurante2()">
+            <option value="1">Sim, desejo pagar.</option>
+            <option value="0">Não, deixo para a próxima!</option>
+        </select><br><br>
+        
+        <h2>Valor a ser pago</h2>
+        <p id="restaurante-2-resultado">R$00,00</p>
+    </div>
+    <div class="big-section" id="hospedagem">
+        <div class="w3-panel w3-orange">
+            <h1>Calculadora de hospedagem</h1><br>
+        </div>
+
+        <p>Escolha um dos quartos:</p>
+        <select id="hospedagem-quartos" class="w3-select w3-border" oninput="calculoHospedagem()">
+            <option value="10">Quarto 1 - R$10,00</option>
+            <option value="20">Quarto 2 - R$20,00</option>
+            <option value="30">Quarto 3 - R$30,00</option>
+            <option value="40">Quarto 4 - R$40,00</option>
+            <option value="50">Quarto 5 - R$50,00</option>
+        </select><br><br>
+
+        <p>Quntos dias de hospedagem?</p>
+        <input type="number" class="w3-input w3-border" id="hospedagem-dias" oninput="calculoHospedagem()"><br>
+        
+        <h2>Valor a ser pago</h2>
+        <p id="hospedagem-resultado">R$00,00</p>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

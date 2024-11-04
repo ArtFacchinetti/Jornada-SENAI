@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="w3-container w3-card-4 w3-light-grey w3-text-blue w3-margin" style="width: 30em;">
+        <h1><b>Alistamento</b></h1>
+    <label for="pnome">Primeiro nome:</label>
+    <input type="text"  class="w3-input w3-border" id="pnome" name="pnome"><br>
+    <label for="snome">Sobrenome:</label>
+    <input type="text"  class="w3-input w3-border" id="snome" name="snome"><br>
+    <form>
+        <label>Sexo biológico:</label><br>
+        <input type="radio" oninput="testarAlistamento(1)" class="w3-check" id="mulher" name="sexo" value="Mulher">
+        <label for="mulher" >Feminino</label><br>
+        <input type="radio" oninput="testarAlistamento(0)" class="w3-check" id="homem" name="sexo" value="Homem">
+        <label for="homem">Masculino</label><br>
+    </form>
+        <p id="obrigatorio">Alistamento feminino não é obrigatório!</p><br>
+    <label for="idade">Idade</label>
+    <input oninput="testarAlistamentoIdade()" class="w3-input w3-border" type="number" id="idade" name="idade"><br>
+     <p id="obrigatorioIdade" class="w3-red">Tem que ter mais de 18 anos!</p>
+
+    <button class="w3-button w3-block w3-section w3-blue w3-ripple w3-padding" onclick="enviar()">Enviar</button>
+    <h1 id="resultado" >Complete o formulário</h1>
+
+</div>
+    <script src="script.js"></script>
+ 
+</body>
+</html>
