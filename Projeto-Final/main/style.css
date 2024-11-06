@@ -7,6 +7,22 @@ html, body {
     height: 100vh;
 }
 
+/* Tamanhos dos títulos */
+.main-h1 {
+    font-size: 3em;
+    font-weight: 600;
+}
+
+.main-h2 {
+    font-size: 2.5em;
+    font-weight: 600;
+}
+
+.main-h3 {
+    font-size: 2em;
+}
+
+/* Header e menu*/
 header {
     height: auto;
     width: 100%;
@@ -54,6 +70,7 @@ menu li {
     float: left;
 }
 
+/* Listas */
 li a {
     display: block;
     color: white;
@@ -66,6 +83,7 @@ li a:hover {
     background-color: #333;
 }
 
+/* Conteúdo principal */
 #conteudo-principal {
     width: 100%;
 
@@ -77,11 +95,12 @@ li a:hover {
     box-sizing: border-box;
 }
 
-#main-wrapper {
+#conteudo-principal-wrapper {
     display: flex;
 }
 
-.descricao {
+/* Descrição */
+#descricao {
     padding: 1em;
 
     display: flex;
@@ -92,24 +111,11 @@ li a:hover {
     box-sizing: border-box;
 }
 
-.main-h1 {
-    font-size: 3em;
-    font-weight: 600;
-}
-
-.main-h2 {
-    font-size: 2.5em;
-    font-weight: 600;
-}
-
-.main-h3 {
-    font-size: 2em;
-}
-
 .imagem-previa {
     border: 3px solid black;
 }
 
+/* Menu lateral */
 #menu-lateral {
     /* height: 100%; */
     width: 100%;
@@ -151,7 +157,7 @@ li a:hover {
     background-color: #333!important;
 }
 
-.active {
+.li-ativo {
     color: white;
 
     background-color: #ed0303!important;
@@ -169,6 +175,8 @@ li a:hover {
     background-color: #555!important;
 }
 
+
+/* Artigos de conteúdo */
 .conteudo-article {
     padding: 1em;
     padding-top: 0;
@@ -176,6 +184,8 @@ li a:hover {
     box-sizing: border-box;
 }
 
+
+/* Code snippet */
 .snippet {
     padding: 1em;
     padding-left: 1.5em;
@@ -198,7 +208,8 @@ li a:hover {
     color: #1672d6;
 }
 
-.acessar {
+/* Botões de acesso */
+.acessar-botao {
     padding: 1em;
 
     display: block;
@@ -215,7 +226,7 @@ li a:hover {
 
 }
 
-.acessar:hover {
+.acessar-botao:hover {
     transform: translateY(-10px);
     box-shadow: 0 10px #333 ;
     border: 3px solid black;
