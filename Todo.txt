@@ -1,0 +1,22 @@
+# Todo list
+
+Projetos pra arrumar:
+    - Alterando Backgorund - MELHORAR
+    - Aposentadoria - MELHORAR
+    - Calculadora IMC e Farehheit - MELHORAR
+    - Calculo de Media - MELHORAR
+
+Não esquecer de:
+    Html:
+    Acabar esta página
+    Ajeitar os links do menu e nav
+    Comentar o codigo
+
+    Outro:
+    Organizar melhor o css no style.css;
+    Organizar melhor os nomes e o que é id e class;
+    Mudar nome das pastas do github;
+    Finalizar o README do Jornada-Senai
+
+    Tentar achar uma melhor estilização para o Nav
+    Tentar achar uma melhor divisão entre Nav e Main

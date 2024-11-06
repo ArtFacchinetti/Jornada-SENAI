@@ -87,6 +87,8 @@ main {
     display: flex;
     flex-direction: row;
 
+    border-bottom: 2px solid #555;
+
     box-sizing: border-box;
 }
 
@@ -115,7 +117,7 @@ main {
     margin: 0;
     padding: 0;
 
-    border-right: 10px solid black;
+    border-right: 3px solid #111;
     background-color: #555;
 
     flex: 1;
@@ -174,20 +176,3 @@ main {
 .snippet-blue {
     color: #1672d6;
 }
-
-/* Não esquecer de:
-    Html:
-    Acabar esta página
-    Ajeitar os links do menu e nav
-    Comentar o codigo
-
-    Outro:
-    Organizar melhor o css;
-    Organizar melhor os omes e o que é id e class;
-    Mudar nome das pastas do github;
-    Finalizar o README do Jornada-Senai
-
-    Tentar achar uma melhor estilização para o Nav
-    Tentar achar uma melhor divisão entre Nav e Main
-
-*/
