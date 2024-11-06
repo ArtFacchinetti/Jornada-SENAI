@@ -142,15 +142,36 @@ main {
     background-color: #ff0000;
 }
 
+.menu-lateral li:hover {
+    color: white;
+
+    padding: 1.5em 0.9em;
+
+    border: none;
+    background-color: #333;
+}
+
+.active {
+    color: white;
+
+    background-color: #333!important;
+}
+
 .li-titulo {
     font-size: 1.2em;
     text-align: center;
+    
+    display: block;
+
+
+    padding: 1.5em 0.9em;
 
     background-color: #555!important;
 }
 
 .conteudo-article {
     padding: 1em;
+    padding-top: 0;
 
     box-sizing: border-box;
 }
@@ -175,4 +196,41 @@ main {
 
 .snippet-blue {
     color: #1672d6;
+}
+
+.acessar {
+    padding: 1em;
+
+    display: block;
+
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+
+    cursor: pointer;
+
+
+    background-color: #ff0000;
+    border: 3px solid black;
+
+}
+
+.acessar:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px #333 ;
+    border: 3px solid black;
+}
+
+.acessar-github {
+    color: #fff;
+
+    background-color: #555;
+}
+
+.acessar-a,  .acessar-a:visited{
+    padding: 1em;
+
+    color: inherit;
+
+    text-decoration: none;
 }
