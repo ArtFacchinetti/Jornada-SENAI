@@ -19,7 +19,7 @@ header {
     box-sizing: border-box;
 }
 
-menu {
+#menu-header {
     height: auto;
     width: 100%;
 
@@ -34,7 +34,7 @@ menu {
     overflow: hidden;
 }
 
-#titulo-texto {
+#texto-header {
     margin: 0;
     padding: 0;
 
@@ -44,7 +44,7 @@ menu {
     font-size: 56px;
 }
 
-#titulo-img {
+#img-header {
     margin-top: 10px;
 
     height: 56px;
@@ -66,7 +66,7 @@ li a:hover {
     background-color: #333;
 }
 
-main {
+#conteudo-principal {
     width: 100%;
 
     margin: 0;
@@ -110,7 +110,7 @@ main {
     border: 3px solid black;
 }
 
-.menu-lateral {
+#menu-lateral {
     /* height: 100%; */
     width: 100%;
 
@@ -123,7 +123,7 @@ main {
     flex: 1;
 }
 
-.menu-lateral ul {
+#menu-lateral ul {
     margin:  0;
     padding: 0;
     color: white;
@@ -134,7 +134,7 @@ main {
     overflow: hidden;
 }
 
-.menu-lateral li {
+#menu-lateral li {
     padding: 0.9em;
 
     border-bottom: 1px solid #ed0303;
@@ -142,22 +142,22 @@ main {
     background-color: #ff0000;
 }
 
-.menu-lateral li:hover {
+#menu-lateral li:hover {
     color: white;
 
     padding: 1.5em 0.9em;
 
     border: none;
-    background-color: #333;
+    background-color: #333!important;
 }
 
 .active {
     color: white;
 
-    background-color: #333!important;
+    background-color: #ed0303!important;
 }
 
-.li-titulo {
+.menu-lateral-titulo {
     font-size: 1.2em;
     text-align: center;
     
