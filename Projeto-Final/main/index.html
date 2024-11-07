@@ -1,21 +1,78 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<!--Linguagem Pt-Br-->
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Jornada Senai</title>
+    <title>Jornada SENAI</title>
 </head>
 <body>
-    <menu>
+    <!--Início Header-->
+    <header>
+        <!--Título principal-->
+        <span id="texto-header"><i>JORNADA</i> <img src="imagens/senai.png" alt="SENAI logo" id="img-header"></span>
 
-    </menu>
-    <nav>
+        <!--Menu horizontal-->
+        <menu id="menu-header">
+            <li><a href="../main/index.html">Página Principal</a></li>
+            <li><a href="">Aulas</a></li>
+            <li><a href="">###</a></li>
+            <li><a href="">####</a></li>
+        </menu>
+    </header>
 
-    </nav>
-    <main>
-        
-    </main>
+    <!--Início Wrapper do main e nav-->
+    <div id="conteudo-principal-wrapper">
+        <!--Início navegação lateral-->
+        <nav id="menu-lateral">
+            <ul>
+                <span class="menu-lateral-titulo">Aulas</span>
+                <li class="li-ativo">Calculadora Restaurante, Couvert e Hospedagem</li>
+                <li>Teste</li>
+                <li>Teste</li>
+                <li>Teste</li>
+                <li>Teste</li>
+                <li>Teste</li>
+
+                <span class="menu-lateral-titulo">Aulas</span>
+                <li>Teste</li>
+            </ul>
+        </nav>
+
+        <!--
+            ==================================
+            Início conteúdo principal da página
+            ==================================
+        -->
+        <main id="conteudo-principal">
+            <h1 class="main-h1">Projeto Jornada SENAI</h1>
+
+            <!--Descrição do conteúdo da página-->
+            <div id="descricao">
+                <p>&nbsp;Este projeto.. <br><br><br>
+                </p>
+            </div>
+
+            <!--Conteúdos ensinados em aula-->
+            <div id="conteudo">
+                <h2 class="main-h2">Conteúdos da aula</h2>
+
+                <!--Artigo com a explicação de cada conteúdo da aula-->
+                <article class="conteudo-article">
+                    <h3 class="main-h3">Swicth Case (Exemplo)</h3>
+
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos cupiditate ut expedita facere minus soluta eveniet ipsam, incidunt qui voluptatibus veritatis, odio reiciendis obcaecati! Sed quia nulla soluta ea repudiandae!
+                    </p>
+                    <!--Code Snippet-->
+                    <div class="snippet">
+                        <p class="snippet-p">
+                            &lt;p class="snippet-p"&gt; <br>    teste
+                        </p>
+                    </div>
+                </article>
+            </div>
+        </main>
+    </div>
 </body>
 </html>

@@ -43,6 +43,7 @@ header {
     padding: 0;
 
     background-color: #ff0000;
+    border-bottom: 3px solid #111;
 
     list-style-type: none;
     font-weight: 600;
@@ -83,14 +84,18 @@ li a:hover {
     background-color: #333;
 }
 
-/* Conteúdo principal */
+/* 
+========================
+    Conteúdo principal 
+========================
+*/
 #conteudo-principal {
     width: 100%;
 
     margin: 0;
     padding: 0.3em;
 
-    flex: 3;
+    flex: 4;
 
     box-sizing: border-box;
 }
@@ -159,6 +164,8 @@ li a:hover {
 
 .li-ativo {
     color: white;
+
+    text-decoration: underline;
 
     background-color: #ed0303!important;
 }
