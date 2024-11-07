@@ -29,7 +29,7 @@ header {
 
     margin: 0;
     padding: 0;
-
+    
     background-color: #333;
 
     box-sizing: border-box;
@@ -41,6 +41,9 @@ header {
 
     margin: 0;
     padding: 0;
+
+    position: sticky;
+    top: 0;
 
     background-color: #ff0000;
     border-bottom: 3px solid #111;
@@ -67,7 +70,7 @@ header {
     height: 56px;
 }
 
-menu li {
+#menu-header li {
     float: left;
 }
 
