@@ -1,5 +1,15 @@
 # Todo list
 
+SOBRE MIM:
+    Adicionar imagem
+    
+
+MAIN:
+    Completar conteúdo
+
+AULAS:
+    Fazer página de aulas
+
 Projetos pra arrumar:
     - Alterando Backgorund - MELHORAR
     - Aposentadoria - MELHORAR
@@ -7,16 +17,13 @@ Projetos pra arrumar:
     - Calculo de Media - MELHORAR
 
 Não esquecer de:
-    Html:
-    Acabar esta página
-    Ajeitar os links do menu e nav
-    Comentar o codigo
-
-    Outro:
-    Organizar melhor o css no style.css;
-    Organizar melhor os nomes e o que é id e class;
     Mudar nome das pastas do github;
     Finalizar o README do Jornada-Senai
 
-    Tentar achar uma melhor estilização para o Nav
-    Tentar achar uma melhor divisão entre Nav e Main
+
+Calculadora-Restaurate
+    Arrumar:
+        Links no menu horizontal
+        Links no mnu nav
+
+        Conteúdos da aula
